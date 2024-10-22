@@ -21,7 +21,7 @@ const RecipesPage = () => {
         <div className="w-100 ">
             {loggedIn && <Filter />}
             <h3 className="text-center mt-4">{!filter ? "All Recipes" : "Filtered Recipes"}</h3>
-            <div className= "d-flex p-2 flex-wrap gap-2">
+            <div className= "d-flex flex-wrap gap-2">
                 {filter ? (
                     filteredRecipes.map((x) => <SingleRecipe recipe={x} key={x._id} />)
                 ) : (

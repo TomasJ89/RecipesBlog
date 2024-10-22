@@ -15,7 +15,7 @@ import UserRecipesPage from "./pages/UserRecipesPage";
 function App() {
 
     return (
-        <div className={"p-5 d-flex flex-column gap-2"}>
+        <div className={"container d-flex flex-column gap-2"}>
             <BrowserRouter>
                 <Toolbar/>
                 <div className="d-flex justify-content-center">
